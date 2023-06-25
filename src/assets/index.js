@@ -7,16 +7,16 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
+import css from "./tech/css-padded.png";
+import docker from "./tech/docker-padded.png";
+import git from "./tech/git-padded.png";
+import html from "./tech/html-padded.png";
+import javascript from "./tech/javascript-padded.png";
+import nodejs from "./tech/nodejs-padded.png";
+import reactjs from "./tech/reactjs-padded.png";
+import redux from "./tech/redux-padded.png";
+import tailwind from "./tech/tailwind-padded.png";
+import typescript from "./tech/typescript-padded.png";
 import threejs from "./tech/threejs.svg";
 
 

@@ -10,7 +10,7 @@ function App() {
           <Navbar/>
           <Hero/>
         </div>
-        <About/>
+        {/* <About/>
         <Experience/>
         <Tech/>
         <Works/>
@@ -18,7 +18,7 @@ function App() {
         <div className="relative z-0">
           <Contact/>
           <StarsCanvas/>
-        </div>
+        </div> */}
       </div>
     </BrowserRouter>
   )
