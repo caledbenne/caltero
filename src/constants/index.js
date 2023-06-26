@@ -54,42 +54,52 @@ import {
     {
       name: "HTML 5",
       icon: html,
+      start: [0,5,0]
     },
     {
       name: "CSS 3",
       icon: css,
+      start: [5,7,2]
     },
     {
       name: "JavaScript",
       icon: javascript,
+      start: [-6,9,-2]
     },
     {
       name: "TypeScript",
       icon: typescript,
+      start: [-4,5,4]
     },
     {
       name: "React JS",
       icon: reactjs,
+      start: [4,5,-8]
     },
     {
       name: "Redux Toolkit",
       icon: redux,
+      start: [-10,6,-8]
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
+      start: [-9,7,10]
     },
     {
       name: "Node JS",
       icon: nodejs,
+      start: [2,8,11]
     },
     {
       name: "git",
       icon: git,
+      start: [11,9,-9]
     },
     {
       name: "docker",
       icon: docker,
+      start: [9,6,7]
     },
   ];
   

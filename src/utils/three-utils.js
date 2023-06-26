@@ -4,14 +4,14 @@ import {useHingeConstraint } from '@react-three/cannon';
 export const useDragConstraint = (cursor, child) => {
     const [,,api] = useHingeConstraint(cursor, child);
     useEffect(() => void api.disable(), [])
-    const onPointerDown = useCallback((e) => {
+    const onDragStart = useCallback((e) => {
       e.stopPropagation()
       //@ts-expect-error Investigate proper types here.
       e.target.setPointerCapture(e.pointerId)
       api.enable()
     }, [])
-    const onPointerUp = useCallback(() => api.disable(), [])
-    return { onPointerDown, onPointerUp }
+    const onDragEnd = useCallback(() => api.disable(), [])
+    return { onDragStart, onDragEnd }
   }
 
 export const rotate = (cx, cy, x, y, angle) => {
