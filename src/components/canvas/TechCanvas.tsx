@@ -1,5 +1,5 @@
 import { Physics } from "@react-three/cannon";
-import { Canvas, useThree } from "@react-three/fiber";
+import { Canvas } from "@react-three/fiber";
 import { Floor, IconTile, Wall } from "./canvas-items";
 import { TechnologyTile } from "../../models/technology";
 import { OrbitControls } from "@react-three/drei";

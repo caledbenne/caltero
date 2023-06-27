@@ -1,5 +1,5 @@
 import { CylinderArgs, Triplet, useCylinder } from "@react-three/cannon";
-import { ThreeEvent, useLoader } from "@react-three/fiber";
+import { useLoader } from "@react-three/fiber";
 import { useMemo, useRef } from "react";
 import { Mesh, MeshStandardMaterial, TextureLoader } from "three";
 
