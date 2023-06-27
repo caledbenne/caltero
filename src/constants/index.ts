@@ -9,6 +9,10 @@ import {
     nodejs,
     git,
     docker,
+    backend,
+    creator,
+    mobile,
+    web,
   } from "../assets";
 import { NavLink } from "../models/NavLink";
 import { TechnologyTile } from "../models/technology";
@@ -80,5 +84,22 @@ const technologies: TechnologyTile[] = [
       position: [9,6,7]
     },
   ];
-
-  export { navLinks, technologies }
+  const services = [
+    {
+      title: "Web Development",
+      icon: web,
+    },
+    {
+      title: "DevSecOps",
+      icon: mobile,
+    },
+    {
+      title: "Backend Developer",
+      icon: backend,
+    },
+    {
+      title: "Security",
+      icon: creator,
+    },
+  ];
+  export { navLinks, technologies, services }
