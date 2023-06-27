@@ -19,6 +19,11 @@ import tailwind from "./tech/tailwind-padded.png";
 import typescript from "./tech/typescript-padded.png";
 import threejs from "./tech/threejs.svg";
 
+import ksu from "./experiences/ksu.png";
+import ultra from "./experiences/ultra.png";
+import textron from "./experiences/textron.png";
+import bell from "./experiences/bell.png";
+
 
 export {
   logo,
@@ -39,5 +44,9 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs
+  threejs,
+  ksu,
+  ultra,
+  textron,
+  bell
 };

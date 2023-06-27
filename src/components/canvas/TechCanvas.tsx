@@ -1,7 +1,7 @@
 import { Physics } from "@react-three/cannon";
 import { Canvas } from "@react-three/fiber";
 import { Floor, IconTile, Wall } from "./canvas-items";
-import { TechnologyTile } from "../../models/technology";
+import { TechnologyTile } from "../../models/Technology";
 import { OrbitControls } from "@react-three/drei";
 import { Suspense } from "react";
 import { CanvasLoader } from "./CanvasLoader";

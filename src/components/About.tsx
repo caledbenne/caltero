@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 import { services } from "../constants";
-import { ServiceCard } from "./shared";
+import { ServiceCard } from "./cards";
 import { SectionWrapper } from "../hoc";
 
 export function About() {
