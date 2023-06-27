@@ -29,7 +29,7 @@ export function IconTile({icon, position, scale = 1, onClick}: IconTileProps) {
     const handleClick= () => {
         const randomDirection: Triplet = [
             Math.random() * 70 *(Math.random() > 0.5 ? 1 : -1),
-            (Math.random() * 5 + 3)*12,
+            90,
             Math.random() * 70 *(Math.random() > 0.5 ? 1 : -1),
         ];
         api.applyImpulse(randomDirection, [0,0,0]);

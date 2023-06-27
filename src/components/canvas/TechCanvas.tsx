@@ -26,10 +26,11 @@ export function TechCanvas({ technologies }: TechCanvasProps) {
                     {technologies.map((v, i) => {
                         return <IconTile key={i} position={v.position} icon={v.icon} scale={window.innerWidth < 700 ? 1.5 : 1}/>
                     })}
-                    <Wall position={[-15, 5, 0]} />
-                    <Wall position={[15, 5, 0]} />
-                    <Wall position={[0, 5, 15]} rotation={[0, Math.PI / 2, 0]} />
-                    <Wall position={[0, 5, -15]} rotation={[0, Math.PI / 2, 0]} />
+                    <Wall position={[-15, 10, 0]} />
+                    <Wall position={[15, 10, 0]} />
+                    <Wall position={[0, 10, 15]} rotation={[0, Math.PI / 2, 0]} />
+                    <Wall position={[0, 10, -15]} rotation={[0, Math.PI / 2, 0]} />
+                    <Wall position={[0,25,0]} rotation={[0,0,Math.PI/2]} />
                 </Physics>
                 <OrbitControls minPolarAngle={Math.PI / 3.5} maxPolarAngle={Math.PI / 2 - .1} enablePan={false} enableZoom={false}/>
             </Suspense>
