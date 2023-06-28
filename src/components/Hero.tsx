@@ -40,13 +40,13 @@ export function Hero() {
           animate={{opacity: .8 }}
           initial={{opacity: 0 }}
           transition={{delay: 4, duration: 0.5}}
-        className="absolute top-[40vh] right-10 lg:right-[20vh] xl:right-[30vh]">
+        className="absolute top-[35vh] right-10 lg:right-[20vh] xl:right-[30vh]">
           (tap on a technology)
         </motion.div>
       }
       <div className="absolute bottom-10 w-full flex justify-center items-center">
         <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 opacity-30 hover:opacity-100">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 opacity-10 hover:opacity-100">
             <motion.div
               animate={{
                 y: [0, 24, 0],
