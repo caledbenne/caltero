@@ -17,7 +17,14 @@ import {
     textron,
     ultra,
     ksu,
+    angular,
+    ado,
+    oidc,
+    linkedin,
+    github,
+    email,
   } from "../assets";
+import { Contact } from "../models/Contact";
 import { Experience } from "../models/Experience";
 import { NavLink } from "../models/NavLink";
 import { TechnologyTile } from "../models/Technology";
@@ -79,15 +86,31 @@ const technologies: TechnologyTile[] = [
       position: [2,8,11]
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
       position: [11,9,-9]
     },
     {
-      name: "docker",
+      name: "Docker",
       icon: docker,
       position: [9,6,7]
     },
+    {
+      name: "Angular",
+      icon: angular,
+      position: [-3,7,-11]
+    },
+    {
+      name: "Azure DevOps",
+      icon: ado,
+      position: [12,8,-1]
+    },
+    {
+      name: "OpenID Connect",
+      icon: oidc,
+      position: [-12,8,5]
+    },
+
   ];
   const services = [
     {
@@ -99,7 +122,7 @@ const technologies: TechnologyTile[] = [
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Backend Development",
       icon: backend,
     },
     {
@@ -112,7 +135,7 @@ const technologies: TechnologyTile[] = [
     {
       companyName: "Bell Flight",
       icon: bell,
-      iconBg: "black",
+      iconBg: "darkslategrey",
       date: "Jan 2021 - Present",
       roles: [
         {
@@ -134,14 +157,14 @@ const technologies: TechnologyTile[] = [
       date: "Jan 2019 - Jan 2021",
       roles: [
         {
-          title: "IT Leadership Development Program - Cybersecurity Analyst",
+          title: "IT Leadership Development Program - Cybersecurity Analyst (2020)",
           points: [
             "Performed Vulnerability Lifecycle Management (VLCM), including remediating vulnerabilities based on prioritization and CVE/CVSS. Automated reporting, remediation effort tracking, and data collection for over 400 servers. Reduced unmitigated emergency- and urgent-rated vulnerabilities by 95%",
             "Collaborated with security teams across Textron to prepare for CMMC 1.0 level 3 efforts and a new Corporate IT Security Policy. Created documents and procedures to comply with CUI requirements."
           ]
         },
         {
-          title: "IT Leadership Development Program - Software Developer",
+          title: "IT Leadership Development Program - Software Developer (2019)",
           points: [
             "Developed Angular 7+ and ASP.NET Core 2+ applications, including writing unit tests, performing Angular and .NET Core upgrades, and delivering features and bugfixes in an agile environment.",
             "Designed and developed an Electron+Angular PWA application allowing the reuse of our web UI for offline desktop viewing.",
@@ -154,7 +177,7 @@ const technologies: TechnologyTile[] = [
     {
       companyName: "Ultra Electronics PCS",
       icon: ultra,
-      iconBg: "grey",
+      iconBg: "white",
       date: "Dec 2017 - Dec 2018",
       roles: [
         {
@@ -169,7 +192,7 @@ const technologies: TechnologyTile[] = [
     {
       companyName: "Kansas State University",
       icon: ksu,
-      iconBg: "white",
+      iconBg: "grey",
       date: "Dec 2018",
       roles: [
         {
@@ -177,10 +200,29 @@ const technologies: TechnologyTile[] = [
           points: [
             "Focuses in web development, high performance computing, and cryptography",
             "National Society of Leadership and Success",
-            "Dean's List (2017 & 2018"
+            "Dean's List (2017 & 2018)"
           ]
         }
       ]
     },
   ];
-  export { navLinks, technologies, services, experiences }
+
+const contacts: Contact[] = [
+  {
+    name: 'LinkedIn',
+    icon: linkedin,
+    url: 'https://www.linkedin.com/in/caledbenne/'
+  },
+  {
+    name: 'GitHub',
+    icon: github,
+    url: 'https://www.github.com/caledbenne'
+  },
+  {
+    name: 'Email',
+    icon: email,
+    url: ''
+  }
+]
+
+  export { navLinks, technologies, services, experiences, contacts }

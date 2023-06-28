@@ -20,7 +20,7 @@ export function About() {
                 variants={fadeIn("","",0.1,1)}
                 className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
             >
-                I develop and architect enterprise grade applications with React and Angular frontends and .NET backends. I have a background in cybersecurity, authentication, and cryptography. Through close collaboration with customers, I develop exciting, user-friendly solutions that are scalable and secure.
+                I develop and architect enterprise grade applications with React and Angular frontends and .NET backends. I have a background in cybersecurity, authentication, and cryptography. Through close collaboration with customers, I develop exciting, user-friendly solutions that are scalable and secure. I also enjoy developing unique and interactive ways to deliver information to users, like my popcorn tech-stack above.
             </motion.p>
             <div className="mt-20 flex flex-wrap gap-10">
                 {services.map((s,i) => (
