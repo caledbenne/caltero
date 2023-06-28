@@ -21,7 +21,7 @@ export function Hero() {
       <TechCanvas technologies={technologies} setSelectedTechnology={setSelectedTechnology} />
       {selectedTechnology && 
         <div className="absolute overflow-hidden bottom-[15vh] w-full text-center text-white text-[16px] flex flex-col justify-center items-center">
-          <AnimatePresence>
+          <AnimatePresence mode="wait">
             <motion.div
             key={selectedTechnology.name}
               initial={{x: -30, opacity: 0}}
