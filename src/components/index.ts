@@ -1,6 +1,7 @@
 import { Hero } from "./Hero";
 import { Navbar } from "./Navbar";
-import { About, AboutComponent } from "./About";
+import { AboutComponent } from "./About";
 import { ExperiencesComponent } from "./Experiences";
+import { ContactsComponent } from "./Contacts";
 
-export { Hero, Navbar, About, AboutComponent, ExperiencesComponent };
+export { Hero, Navbar, AboutComponent, ExperiencesComponent, ContactsComponent };

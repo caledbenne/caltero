@@ -1,3 +1,4 @@
 import { ServiceCard } from "./ServiceCard";
 import { ExperienceCard } from "./ExperienceCard";
-export {ServiceCard, ExperienceCard };
+import { ContactCard } from "./ContactCard";
+export {ServiceCard, ExperienceCard, ContactCard };
